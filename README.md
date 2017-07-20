@@ -1,10 +1,15 @@
 # Designing-a-navigation-system-for-the-visually-impaired
 This is a navigation system designed to assist the visually impaired. 
 Files:
+
 |-main.py : Python file to detect object and door(method two), Door Open/Close and distance calculation
+
 |-Doorwithknobs.py : Python file to door and knobs(method one), Door Open/Close and distance calculation
+
 |-calibrationFinal*.mat : Calibration session for calculating camera intrisic and extrinsic parameter for left and right camera
+
 |-*Tr.mat : calculated camera intrisic and extrinsic parameter for left and right camera
+
 |-Viola_Jones : This folder contains training images, model and execution for outdoor door detection.
      |- model : Model cascade.xml
      |- outdoor_detect_doors.py: Executable
